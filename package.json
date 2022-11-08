@@ -12,6 +12,11 @@
     "version": "standard-version",
     "commit": "git-cz"
   },
+  "main": "./lib/vite-library.umd.cjs",
+  "module": "./lib/vite-library.js",
+  "files": [
+    "lib"
+  ],
   "dependencies": {
     "vue": "^3.2.38"
   },
